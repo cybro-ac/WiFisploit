@@ -1,4 +1,4 @@
-# python3/wifisploit.py
+# python3
 
 import os
 
@@ -82,40 +82,40 @@ Type {b}use <MODULE>{c} or {b}use <#>{c}, example {b}use honeypot_attack{c} or {
 			''')
 
 		elif cmd.lower() == 'use scan_all' or cmd.lower() == 'use 0':
-			os.system('python3 .modules/scanners/scan_all.py')
+			os.system('python3 modules/scanners/scan_all.py')
 
 		elif cmd.lower() == 'use scan_net' or cmd.lower() == 'use 1':
-			os.system('python3 .modules/scanners/scan_net.py')
+			os.system('python3 modules/scanners/scan_net.py')
 
 		elif cmd.lower() == 'use scan_wash' or cmd.lower() == 'use 2':
-                        os.system('python3 .modules/scanners/scan_wash.py')
+                        os.system('python3 modules/scanners/scan_wash.py')
 
 		elif cmd.lower() == 'use scan_wps' or cmd.lower() == 'use 3':
-                        os.system('python3 .modules/scanners/scan_wps.py')
+                        os.system('python3 modules/scanners/scan_wps.py')
 
 		elif cmd.lower() == 'use net_discover' or cmd.lower() == 'use 4':
-                        os.system('python3 .modules/scanners/net_discover.py')
+                        os.system('python3 modules/scanners/net_discover.py')
 
 		elif cmd.lower() == 'use capture_traffic' or cmd.lower() == 'use 5':
-			os.system('python3 .modules/captures/capture_traffic.py')
+			os.system('python3 modules/captures/capture_traffic.py')
 
 		elif cmd.lower() == 'use capture_handshake' or cmd.lower() == 'use 6':
-			os.system('python3 .modules/captures/capture_handshake.py')
+			os.system('python3 modules/captures/capture_handshake.py')
 
 		elif cmd.lower() == 'use brute_force' or cmd.lower() == 'use 7':
-			os.system('python3 .modules/attacks/brute_force.py')
+			os.system('python3 modules/attacks/brute_force.py')
 
 		elif cmd.lower() == 'use crack_handshake' or cmd.lower() == 'use 8':
-			os.system('python3 .modules/attacks/crack_handshake.py')
+			os.system('python3 modules/attacks/crack_handshake.py')
 
 		elif cmd.lower() == 'use dos_attack' or cmd.lower() == 'use 9':
-			os.system('python3 .modules/attacks/dos_attack.py')
+			os.system('python3 modules/attacks/dos_attack.py')
 
 		elif cmd.lower() == 'use wps_attack' or cmd.lower() == 'use 10':
-			os.system('python3 .modules/attacks/wps_attack.py')
+			os.system('python3 modules/attacks/wps_attack.py')
 
 		elif cmd.lower() == 'use honeypot_attack' or cmd.lower() == 'use 11':
-			os.system('python3 .modules/attacks/honeypot_attack.py')
+			os.system('python3 modules/attacks/honeypot_attack.py')
 
 		elif cmd.lower() == 'tutorial':
 			os.system('xdg-open https://www.youtube.com/@cybaron_ac/featured')
